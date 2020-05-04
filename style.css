@@ -1,0 +1,134 @@
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: 13px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.nav-a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+section {
+    text-align: center;
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+section a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+.search-wrapper {
+    position: relative;
+    align-items: center;
+}
+
+.search-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 45px;
+    width: 450px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+}
+
+.search-box:hover {
+    border: 1px solid lightgray;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.mic {
+    height: 22px;
+    width: auto;
+    position: relative;
+    right: 42px;
+    top: 8px;
+}
+
+.mag {
+    height: 22px;
+    width: auto;
+    position: relative;
+    top: 8px;
+    left: 40px;
+}
+
+.button {
+    border: none;
+    color: rgb(100, 100, 100);
+    background-color: #f2f2f2;
+    margin: 11px 4px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.button:hover {
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+}
+
+.section-text {
+    padding: 14px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.footer-top {
+    color: rgb(112, 112, 112);
+    padding: 15px 25px;
+    border-top: 1px rgb(222, 222, 222) solid;
+}
+
+.footer-a {
+    color: rgb(112, 112, 112);
+    margin-left: 1px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.footer-a:hover {
+    text-decoration: underline;
+}
+
+.footer-flex {
+    border-top: 1px rgb(222, 222, 222) solid;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-right {
+    margin-left: auto;
+    padding: 8px;
+}
+
+.footer-left {
+    align-content: flex-start;
+    padding: 8px;
+}
